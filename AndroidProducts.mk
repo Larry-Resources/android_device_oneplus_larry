@@ -5,5 +5,7 @@
 #
 
 PRODUCT_MAKEFILES := \
-   $(LOCAL_DIR)/larry/aospa_larry.mk \
+    $(LOCAL_DIR)/aospa_larry.mk
 
+COMMON_LUNCH_CHOICES := \
+    aospa_larry-userdebug
